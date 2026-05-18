@@ -1,0 +1,724 @@
+[
+  {
+    "id": 27,
+    "parent_id": null,
+    "title": "Ausbilderleitfäden",
+    "subtitle": "",
+    "description": null,
+    "keywords": null,
+    "articles_count": 2,
+    "full_title": "Ausbilderleitfäden",
+    "children": [
+      {
+        "id": 31,
+        "parent_id": 27,
+        "title": "Atemschutzgeräteträger",
+        "subtitle": "",
+        "description": null,
+        "keywords": "AT, ALF, Basismodul, Atemschutz Basis 1, Atemschutz Basis 2, Atemschutz Basis 3, Atemschutz Basis 4, Atemschutz Basis 5, Atemschutz Basis 6, Atemschutz Basis 7, Atemschutz Basis 8, Ergänzungsmodule, Atemschutz Zusatzausbildung, Körperschutz im ABC-Einsatz, Regenerationsgeräte, Schlauchgeräte, Atemschutz Fortbildung, Wärmebildkamera, Brandübungsanlage",
+        "articles_count": 15,
+        "full_title": "Ausbilderleitfäden - Atemschutzgeräteträger",
+        "parent": {
+          "id": 27,
+          "parent_id": null,
+          "title": "Ausbilderleitfäden",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Ausbilderleitfäden",
+          "parent": null
+        }
+      },
+      {
+        "id": 30,
+        "parent_id": 27,
+        "title": "Einsatz in Höhen und Tiefen",
+        "subtitle": "",
+        "description": null,
+        "keywords": "EHT, Basismodul",
+        "articles_count": 8,
+        "full_title": "Ausbilderleitfäden - Einsatz in Höhen und Tiefen",
+        "parent": {
+          "id": 27,
+          "parent_id": null,
+          "title": "Ausbilderleitfäden",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Ausbilderleitfäden",
+          "parent": null
+        }
+      },
+      {
+        "id": 29,
+        "parent_id": 27,
+        "title": "Funk",
+        "subtitle": "",
+        "description": "",
+        "keywords": "Rechtsgrundlagen, Grundlagen Digitalfunk, Gerätekunde und -bedienung, Grundsätze des Sprechfunkbetriebs, Sprechfunkbetrieb TMO, Sprechfunkbetrieb DMO",
+        "articles_count": 0,
+        "full_title": "Ausbilderleitfäden - Funk",
+        "parent": {
+          "id": 27,
+          "parent_id": null,
+          "title": "Ausbilderleitfäden",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Ausbilderleitfäden",
+          "parent": null
+        }
+      },
+      {
+        "id": 32,
+        "parent_id": 27,
+        "title": "Maschinist",
+        "subtitle": "",
+        "description": "",
+        "keywords": "Organisation, Aufgaben des Maschinisten, Löschfahrzeuge, Motorenkunde, Motorenkunde für Tragkraftspritzen, Unfallverhütung, Straßenverkehrsrecht, Dienstvorschriften, Löschwasserentnahmestellen, Wasserförderung, Feuerlöschkreiselpumpen, Inbetriebnahme von Feuerlöschkreiselpumpen, Entlüftungseinrichtungen, Hydranten- und Tankbetrieb mit Feuerlöschkreiselpumpen, Saugbetrieb mit Störungssuche und Winterbetrieb, Kraftbetriebene und weitere Geräte, Kraftbetriebene Geräte, Weitere Geräte, Wasserförderung über lange Schlauchstrecken, Hinweis zur Prüfung, Prüfungsfragen, Zeugnis",
+        "articles_count": 12,
+        "full_title": "Ausbilderleitfäden - Maschinist",
+        "parent": {
+          "id": 27,
+          "parent_id": null,
+          "title": "Ausbilderleitfäden",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Ausbilderleitfäden",
+          "parent": null
+        }
+      },
+      {
+        "id": 28,
+        "parent_id": 27,
+        "title": "MTA",
+        "subtitle": "",
+        "description": "",
+        "keywords": "Basismodul, Lehrgangsorganisation, Rechtsgrundlagen und Organisation, Brennen und Löschen, Fahrzeugkunde, Gerätekunde, Erste Hilfe, Verhalten im Einsatz und in der Öffentlichkeit, Löscheinsatz, Sichern gegen Absturz, Einheiten im Hilfeleistungseinsatz, ABC Gefahrstoffe, Fahrzeugtechnik, Funk Digital, Zwischenprüfung, Ergänzungsmodule, Retten aus dem Gefahrenbereich, Trennschleifmaschine, Säbelsäge, Wasserförderung über lange Schlauchstrecke, Tauchmotorpumpe, Wassersauger, Kartenkunde - Geodaten für die Feuerwehren, Belüften von Gebäuden im Brandeinsatz, Verkehrsabsicherung von Einsatzstellen der Feuerwehr, Verkehrsunfall PKW, Hydraulische Rettungsgeräte, Ausbildungs- und Übungsdienst, Abschlussprüfung",
+        "articles_count": 37,
+        "full_title": "Ausbilderleitfäden - MTA",
+        "parent": {
+          "id": 27,
+          "parent_id": null,
+          "title": "Ausbilderleitfäden",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Ausbilderleitfäden",
+          "parent": null
+        }
+      }
+    ],
+    "parent": null
+  },
+  {
+    "id": 53,
+    "parent_id": null,
+    "title": "Ausbildungspakete",
+    "subtitle": null,
+    "description": null,
+    "keywords": null,
+    "articles_count": 88,
+    "full_title": "Ausbildungspakete",
+    "children": [],
+    "parent": null
+  },
+  {
+    "id": 58,
+    "parent_id": null,
+    "title": "Einsatz",
+    "subtitle": null,
+    "description": null,
+    "keywords": null,
+    "articles_count": 10,
+    "full_title": "Einsatz",
+    "children": [
+      {
+        "id": 14,
+        "parent_id": 58,
+        "title": "ABC",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Ölwehr",
+        "articles_count": 15,
+        "full_title": "Einsatz - ABC",
+        "parent": {
+          "id": 58,
+          "parent_id": null,
+          "title": "Einsatz",
+          "subtitle": null,
+          "description": null,
+          "keywords": null,
+          "full_title": "Einsatz",
+          "parent": null
+        }
+      },
+      {
+        "id": 11,
+        "parent_id": 58,
+        "title": "Brand",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Vegetation, Gebäude, Atemschutz, Schiffsbrand, Fahrzeug",
+        "articles_count": 61,
+        "full_title": "Einsatz - Brand",
+        "parent": {
+          "id": 58,
+          "parent_id": null,
+          "title": "Einsatz",
+          "subtitle": null,
+          "description": null,
+          "keywords": null,
+          "full_title": "Einsatz",
+          "parent": null
+        }
+      },
+      {
+        "id": 9,
+        "parent_id": 58,
+        "title": "Einsatzführung",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Kartenkunde, Funk",
+        "articles_count": 69,
+        "full_title": "Einsatz - Einsatzführung",
+        "parent": {
+          "id": 58,
+          "parent_id": null,
+          "title": "Einsatz",
+          "subtitle": null,
+          "description": null,
+          "keywords": null,
+          "full_title": "Einsatz",
+          "parent": null
+        }
+      },
+      {
+        "id": 10,
+        "parent_id": 58,
+        "title": "Gefahren",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Atomare Strahlung, Atemgifte, Angstreaktion, Chemische Gefahren, Ausbreitung, Erkrankung/Verletzung, Explosion, Einsturz, Elektrizität",
+        "articles_count": 30,
+        "full_title": "Einsatz - Gefahren",
+        "parent": {
+          "id": 58,
+          "parent_id": null,
+          "title": "Einsatz",
+          "subtitle": null,
+          "description": null,
+          "keywords": null,
+          "full_title": "Einsatz",
+          "parent": null
+        }
+      },
+      {
+        "id": 16,
+        "parent_id": 58,
+        "title": "Gewässer",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Bootsführer, Wasserrettung",
+        "articles_count": 13,
+        "full_title": "Einsatz - Gewässer",
+        "parent": {
+          "id": 58,
+          "parent_id": null,
+          "title": "Einsatz",
+          "subtitle": null,
+          "description": null,
+          "keywords": null,
+          "full_title": "Einsatz",
+          "parent": null
+        }
+      },
+      {
+        "id": 15,
+        "parent_id": 58,
+        "title": "Katastrophenschutz",
+        "subtitle": "",
+        "description": null,
+        "keywords": null,
+        "articles_count": 2,
+        "full_title": "Einsatz - Katastrophenschutz",
+        "parent": {
+          "id": 58,
+          "parent_id": null,
+          "title": "Einsatz",
+          "subtitle": null,
+          "description": null,
+          "keywords": null,
+          "full_title": "Einsatz",
+          "parent": null
+        }
+      },
+      {
+        "id": 12,
+        "parent_id": 58,
+        "title": "Löschmittel",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Schaum, Wasser, Pulver, CO2",
+        "articles_count": 4,
+        "full_title": "Einsatz - Löschmittel",
+        "parent": {
+          "id": 58,
+          "parent_id": null,
+          "title": "Einsatz",
+          "subtitle": null,
+          "description": null,
+          "keywords": null,
+          "full_title": "Einsatz",
+          "parent": null
+        }
+      },
+      {
+        "id": 17,
+        "parent_id": 58,
+        "title": "Luft",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Flughelfer, Drohnen",
+        "articles_count": 3,
+        "full_title": "Einsatz - Luft",
+        "parent": {
+          "id": 58,
+          "parent_id": null,
+          "title": "Einsatz",
+          "subtitle": null,
+          "description": null,
+          "keywords": null,
+          "full_title": "Einsatz",
+          "parent": null
+        }
+      },
+      {
+        "id": 13,
+        "parent_id": 58,
+        "title": "THL",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Verkehrsunfall, Verkehrsabsicherung, Absturzsicherung, Höhenrettung, Tiere",
+        "articles_count": 85,
+        "full_title": "Einsatz - THL",
+        "parent": {
+          "id": 58,
+          "parent_id": null,
+          "title": "Einsatz",
+          "subtitle": null,
+          "description": null,
+          "keywords": null,
+          "full_title": "Einsatz",
+          "parent": null
+        }
+      }
+    ],
+    "parent": null
+  },
+  {
+    "id": 43,
+    "parent_id": null,
+    "title": "Jugendfeuerwehr",
+    "subtitle": "",
+    "description": null,
+    "keywords": null,
+    "articles_count": 21,
+    "full_title": "Jugendfeuerwehr",
+    "children": [
+      {
+        "id": 46,
+        "parent_id": 43,
+        "title": "Brennen und Löschen",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Wissenstest",
+        "articles_count": 23,
+        "full_title": "Jugendfeuerwehr - Brennen und Löschen",
+        "parent": {
+          "id": 43,
+          "parent_id": null,
+          "title": "Jugendfeuerwehr",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Jugendfeuerwehr",
+          "parent": null
+        }
+      },
+      {
+        "id": 44,
+        "parent_id": 43,
+        "title": "Fahrzeugkunde",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Wissenstest",
+        "articles_count": 6,
+        "full_title": "Jugendfeuerwehr - Fahrzeugkunde",
+        "parent": {
+          "id": 43,
+          "parent_id": null,
+          "title": "Jugendfeuerwehr",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Jugendfeuerwehr",
+          "parent": null
+        }
+      },
+      {
+        "id": 47,
+        "parent_id": 43,
+        "title": "Organisation der Feuerwehr und Jugendschutz",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Wissenstest",
+        "articles_count": 8,
+        "full_title": "Jugendfeuerwehr - Organisation der Feuerwehr und Jugendschutz",
+        "parent": {
+          "id": 43,
+          "parent_id": null,
+          "title": "Jugendfeuerwehr",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Jugendfeuerwehr",
+          "parent": null
+        }
+      },
+      {
+        "id": 48,
+        "parent_id": 43,
+        "title": "Umgang mit Schläuchen, Armaturen und Leinen",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Wissenstest",
+        "articles_count": 0,
+        "full_title": "Jugendfeuerwehr - Umgang mit Schläuchen, Armaturen und Leinen",
+        "parent": {
+          "id": 43,
+          "parent_id": null,
+          "title": "Jugendfeuerwehr",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Jugendfeuerwehr",
+          "parent": null
+        }
+      },
+      {
+        "id": 45,
+        "parent_id": 43,
+        "title": "Unfallverhütung in der Jugendfeuerwehr, Persönliche Schutzausrüstung und Dienstkleidung",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Wissenstest",
+        "articles_count": 31,
+        "full_title": "Jugendfeuerwehr - Unfallverhütung in der Jugendfeuerwehr, Persönliche Schutzausrüstung und Dienstkleidung",
+        "parent": {
+          "id": 43,
+          "parent_id": null,
+          "title": "Jugendfeuerwehr",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Jugendfeuerwehr",
+          "parent": null
+        }
+      },
+      {
+        "id": 49,
+        "parent_id": 43,
+        "title": "Verhalten bei Notfällen",
+        "subtitle": "",
+        "description": null,
+        "keywords": "Wissenstest",
+        "articles_count": 22,
+        "full_title": "Jugendfeuerwehr - Verhalten bei Notfällen",
+        "parent": {
+          "id": 43,
+          "parent_id": null,
+          "title": "Jugendfeuerwehr",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Jugendfeuerwehr",
+          "parent": null
+        }
+      }
+    ],
+    "parent": null
+  },
+  {
+    "id": 7,
+    "parent_id": null,
+    "title": "Lehrgänge SFS",
+    "subtitle": "",
+    "description": null,
+    "keywords": null,
+    "articles_count": 18,
+    "full_title": "Lehrgänge SFS",
+    "children": [],
+    "parent": null
+  },
+  {
+    "id": 35,
+    "parent_id": null,
+    "title": "Leistungsprüfung",
+    "subtitle": "",
+    "description": null,
+    "keywords": null,
+    "articles_count": 0,
+    "full_title": "Leistungsprüfung",
+    "children": [
+      {
+        "id": 37,
+        "parent_id": 35,
+        "title": "Hilfeleistungseinsatz",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 5,
+        "full_title": "Leistungsprüfung - Hilfeleistungseinsatz",
+        "parent": {
+          "id": 35,
+          "parent_id": null,
+          "title": "Leistungsprüfung",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Leistungsprüfung",
+          "parent": null
+        }
+      },
+      {
+        "id": 38,
+        "parent_id": 35,
+        "title": "Jugendleistungsprüfung",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 3,
+        "full_title": "Leistungsprüfung - Jugendleistungsprüfung",
+        "parent": {
+          "id": 35,
+          "parent_id": null,
+          "title": "Leistungsprüfung",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Leistungsprüfung",
+          "parent": null
+        }
+      },
+      {
+        "id": 36,
+        "parent_id": 35,
+        "title": "Löscheinsatz",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 5,
+        "full_title": "Leistungsprüfung - Löscheinsatz",
+        "parent": {
+          "id": 35,
+          "parent_id": null,
+          "title": "Leistungsprüfung",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Leistungsprüfung",
+          "parent": null
+        }
+      }
+    ],
+    "parent": null
+  },
+  {
+    "id": 39,
+    "parent_id": null,
+    "title": "Rechtliches",
+    "subtitle": "",
+    "description": null,
+    "keywords": null,
+    "articles_count": 1,
+    "full_title": "Rechtliches",
+    "children": [
+      {
+        "id": 40,
+        "parent_id": 39,
+        "title": "Dienstvorschrift",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 1,
+        "full_title": "Rechtliches - Dienstvorschrift",
+        "parent": {
+          "id": 39,
+          "parent_id": null,
+          "title": "Rechtliches",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Rechtliches",
+          "parent": null
+        }
+      },
+      {
+        "id": 41,
+        "parent_id": 39,
+        "title": "Gesetz",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 11,
+        "full_title": "Rechtliches - Gesetz",
+        "parent": {
+          "id": 39,
+          "parent_id": null,
+          "title": "Rechtliches",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Rechtliches",
+          "parent": null
+        }
+      },
+      {
+        "id": 42,
+        "parent_id": 39,
+        "title": "Unfallverhütung",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 2,
+        "full_title": "Rechtliches - Unfallverhütung",
+        "parent": {
+          "id": 39,
+          "parent_id": null,
+          "title": "Rechtliches",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Rechtliches",
+          "parent": null
+        }
+      }
+    ],
+    "parent": null
+  },
+  {
+    "id": 1,
+    "parent_id": null,
+    "title": "Technik",
+    "subtitle": "",
+    "description": null,
+    "keywords": null,
+    "articles_count": 3,
+    "full_title": "Technik",
+    "children": [
+      {
+        "id": 4,
+        "parent_id": 1,
+        "title": "Brand",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 13,
+        "full_title": "Technik - Brand",
+        "parent": {
+          "id": 1,
+          "parent_id": null,
+          "title": "Technik",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Technik",
+          "parent": null
+        }
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "title": "Fahrzeuge",
+        "subtitle": "",
+        "description": "",
+        "keywords": "Drehleiter, Löschfahrzeug",
+        "articles_count": 5,
+        "full_title": "Technik - Fahrzeuge",
+        "parent": {
+          "id": 1,
+          "parent_id": null,
+          "title": "Technik",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Technik",
+          "parent": null
+        }
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "title": "Gerätekunde",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 31,
+        "full_title": "Technik - Gerätekunde",
+        "parent": {
+          "id": 1,
+          "parent_id": null,
+          "title": "Technik",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Technik",
+          "parent": null
+        }
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "title": "Gerätewart",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 6,
+        "full_title": "Technik - Gerätewart",
+        "parent": {
+          "id": 1,
+          "parent_id": null,
+          "title": "Technik",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Technik",
+          "parent": null
+        }
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "title": "THL",
+        "subtitle": "",
+        "description": "",
+        "keywords": null,
+        "articles_count": 35,
+        "full_title": "Technik - THL",
+        "parent": {
+          "id": 1,
+          "parent_id": null,
+          "title": "Technik",
+          "subtitle": "",
+          "description": null,
+          "keywords": null,
+          "full_title": "Technik",
+          "parent": null
+        }
+      }
+    ],
+    "parent": null
+  }
+]
