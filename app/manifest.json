@@ -1,0 +1,17 @@
+{
+  "name": "Feuerwehr Lernapp",
+  "short_name": "FW Lernen",
+  "description": "Lernmaterialien der Bayerischen Feuerwehr – offline verfügbar",
+  "start_url": "/feuerwehr/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#cc0000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
