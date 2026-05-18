@@ -1,1 +1,38 @@
+name: Sync Lernbar Cache
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run sync script
+        run: python scripts/sync.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN }}
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cache/
+          git diff --cached --quiet && echo "Keine Änderungen." || \
+            git commit -m "chore: cache sync $(date -u '+%Y-%m-%d %H:%M UTC')" && git push
 
