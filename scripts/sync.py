@@ -35,41 +35,44 @@ def fetch_json(url, params=None):
             time.sleep(2 ** attempt)
     return None
 
-def fetch_all_topics():
-    """Alle Topics paginiert abrufen."""
-    topics = []
-    cursor = 0
+def fetch_all_paginated(endpoint, label="Einträge"):
+    """
+    Universelle paginierte Abfrage.
+    Die API gibt cursor = ID des letzten Elements zurück.
+    Nächste Seite: cursor=<letzter_cursor>, die API gibt dann
+    Einträge mit ID < cursor zurück. Fertig wenn data leer.
+    """
+    items = []
+    cursor = None
     while True:
-        data = fetch_json(f"{BASE_URL}/topics", {"limit": 100, "cursor": cursor})
-        if not data or not data.get("data"):
+        params = {"limit": 100}
+        if cursor is not None:
+            params["cursor"] = cursor
+        data = fetch_json(f"{BASE_URL}/{endpoint}", params)
+        if not data:
             break
-        batch = data["data"]
-        topics.extend(batch)
-        print(f"  Topics geladen: {len(topics)}")
-        new_cursor = data.get("cursor")
-        if not new_cursor or new_cursor >= cursor:
+        # API kann Liste oder Dict mit "data"-Key zurückgeben
+        if isinstance(data, list):
+            batch = data
+            next_cursor = None
+        else:
+            batch = data.get("data", [])
+            next_cursor = data.get("cursor")
+        
+        if not batch:
             break
-        cursor = new_cursor
-        time.sleep(0.5)
-    return topics
-
-def fetch_all_posts():
-    """Alle Posts paginiert abrufen."""
-    posts = []
-    cursor = 0
-    while True:
-        data = fetch_json(f"{BASE_URL}/posts", {"limit": 100, "cursor": cursor})
-        if not data or not data.get("data"):
+        items.extend(batch)
+        print(f"  {label}: {len(items)}")
+        
+        # Kein weiterer Cursor → fertig
+        if not next_cursor:
             break
-        batch = data["data"]
-        posts.extend(batch)
-        print(f"  Posts geladen: {len(posts)}")
-        new_cursor = data.get("cursor")
-        if not new_cursor or new_cursor >= cursor:
+        # Cursor hat sich nicht verändert → Endlosschleife verhindern
+        if next_cursor == cursor:
             break
-        cursor = new_cursor
+        cursor = next_cursor
         time.sleep(0.3)
-    return posts
+    return items
 
 def fetch_post_detail(slug):
     """Einzelnen Post mit vollem Inhalt abrufen."""
@@ -119,7 +122,7 @@ def main():
 
     # 2. Alle Topics
     print("\n📚 Lade Topics...")
-    topics = fetch_all_topics()
+    topics = fetch_all_paginated("topics", "Topics")
     (CACHE_DIR / "topics.json").write_text(
         json.dumps(topics, ensure_ascii=False, indent=2), encoding="utf-8"
     )
@@ -127,7 +130,7 @@ def main():
 
     # 3. Alle Posts (Metadaten)
     print("\n📄 Lade Posts (Metadaten)...")
-    posts = fetch_all_posts()
+    posts = fetch_all_paginated("posts", "Posts")
     print(f"  ✓ {len(posts)} Posts gefunden")
 
     # 4. Post-Details + Datei-Links sammeln
