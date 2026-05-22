@@ -36,7 +36,7 @@
         "subtitle": "",
         "description": null,
         "keywords": "EHT, Basismodul",
-        "articles_count": 8,
+        "articles_count": 9,
         "full_title": "Ausbilderleitfäden - Einsatz in Höhen und Tiefen",
         "parent": {
           "id": 27,
@@ -96,7 +96,7 @@
         "subtitle": "",
         "description": "",
         "keywords": "Basismodul, Lehrgangsorganisation, Rechtsgrundlagen und Organisation, Brennen und Löschen, Fahrzeugkunde, Gerätekunde, Erste Hilfe, Verhalten im Einsatz und in der Öffentlichkeit, Löscheinsatz, Sichern gegen Absturz, Einheiten im Hilfeleistungseinsatz, ABC Gefahrstoffe, Fahrzeugtechnik, Funk Digital, Zwischenprüfung, Ergänzungsmodule, Retten aus dem Gefahrenbereich, Trennschleifmaschine, Säbelsäge, Wasserförderung über lange Schlauchstrecke, Tauchmotorpumpe, Wassersauger, Kartenkunde - Geodaten für die Feuerwehren, Belüften von Gebäuden im Brandeinsatz, Verkehrsabsicherung von Einsatzstellen der Feuerwehr, Verkehrsunfall PKW, Hydraulische Rettungsgeräte, Ausbildungs- und Übungsdienst, Abschlussprüfung",
-        "articles_count": 37,
+        "articles_count": 38,
         "full_title": "Ausbilderleitfäden - MTA",
         "parent": {
           "id": 27,
@@ -324,7 +324,7 @@
     "subtitle": "",
     "description": null,
     "keywords": null,
-    "articles_count": 21,
+    "articles_count": 22,
     "full_title": "Jugendfeuerwehr",
     "children": [
       {
@@ -394,7 +394,7 @@
         "subtitle": "",
         "description": null,
         "keywords": "Wissenstest",
-        "articles_count": 0,
+        "articles_count": 1,
         "full_title": "Jugendfeuerwehr - Umgang mit Schläuchen, Armaturen und Leinen",
         "parent": {
           "id": 43,
